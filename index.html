@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 4 Synthesis Chart (Expanded)</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 210mm; /* A4 Width */
+            margin: 0 auto;
+            padding: 10mm;
+            color: #333;
+            line-height: 1.4;
+        }
+
+        h1 {
+            text-align: center;
+            border-bottom: 3px solid #333;
+            padding-bottom: 10px;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            font-size: 24px;
+        }
+
+        .subtitle {
+            text-align: center;
+            font-style: italic;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+
+        .task-box {
+            background-color: #f0f0f0;
+            border: 2px solid #333;
+            padding: 15px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+        }
+
+        /* Grid Layout: 2 Columns for the main aspects */
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .aspect-box {
+            border: 2px solid #555;
+            padding: 0;
+            border-radius: 5px;
+            overflow: hidden;
+            /* Avoid breaking inside boxes when printing */
+            page-break-inside: avoid; 
+        }
+
+        .aspect-header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+
+        .notes-section {
+            padding: 15px;
+            /* Significantly larger writing space */
+            min-height: 200px; 
+            border-bottom: 1px dashed #ccc;
+        }
+
+        .notes-section:last-child {
+            border-bottom: none;
+        }
+
+        .label {
+            font-weight: bold;
+            font-size: 13px;
+            text-transform: uppercase;
+            color: #555;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .prompt-text {
+            font-size: 12px;
+            color: #777;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+
+        .writing-lines {
+            border-bottom: 1px dotted #ccc;
+            height: 25px;
+            margin-bottom: 10px;
+        }
+
+        .vocab-section {
+            border: 2px solid #333;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+            page-break-inside: avoid;
+        }
+
+        .vocab-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 10px;
+            font-size: 11px;
+        }
+
+        .vocab-category {
+            font-weight: bold;
+            margin-bottom: 5px;
+            text-decoration: underline;
+        }
+
+        /* Print Optimization */
+        @media print {
+            body { padding: 0; margin: 10mm; }
+            .aspect-box { page-break-inside: avoid; }
+            .vocab-section { page-break-inside: avoid; }
+            .task-box { background-color: #eee !important; -webkit-print-color-adjust: exact; }
+            .aspect-header { background-color: #333 !important; color: white !important; -webkit-print-color-adjust: exact; }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Unit 4: The Great Competition Debate</h1>
+    <p class="subtitle">Preparation for Scribo Writing Task</p>
+
+    <div class="task-box">
+        <strong>✍️ THE TASK:</strong><br>
+        Write a reflective essay answering the question: <br>
+        <em>"Does competition bring out the best in us, or does it destroy us?"</em><br><br>
+        <strong>Requirements:</strong> 150-200 words • Use evidence from at least 2 areas below • Use 4+ vocabulary words.
+    </div>
+
+    <!-- The 4 Aspects Grid -->
+    <div class="grid-container">
+        
+        <!-- Aspect 1: Nature -->
+        <div class="aspect-box">
+            <div class="aspect-header">🌱 Nature & Survival</div>
+            
+            <div class="notes-section">
+                <span class="label">✅ Benefits (Survival of the Fittest)</span>
+                <p class="prompt-text">e.g., How adaptation (giraffes, night plants) helps species survive.</p>
+                <div class="writing-lines"></div>
+                <div class="writing-lines"></div>
+                <div class="writing-lines"></div>
+            </div>
+            
+            <div class="notes-section">
+                <span class="label">⚠️ Costs (Cruelty & Tricks)</span>
+                <p class="prompt-text">e.g., Drongo bird tricks, invasive species wiping out others.</p>
+                <div class="writing-lines"></div>
+                <div class="writing-lines"></div>
+                <div class="writing-lines"></div>
+            </div>
+        </div>
+
+        <!-- Aspect 2: Technology -->
+        <div class="aspect-box">
+            <div class="aspect-header">⚡ Tech Rivals (Edison vs Tesla)</div>
+            
+            <div class="notes-section">
+                <span class="label">✅ Benefits (Innovation)</span>
+                <p class="prompt-text">e.g., How their rivalry gave us AC power and light bulbs faster.</p>
+                <div class="writing-lines"></div>
+                <div class="writing-lines"></div>
+                <div class="writing-lines"></div>
+            </div>
+            
+            <div class="notes-section">
+                <span class="label">⚠️ Costs (Sabotage)</span>
+                <p class="prompt-text">e.g., Public fears, dirty tricks, refusing to share prizes.</p>
+                <div class="writing-lines"></div>
+                <div class="writing-lines"></div>
+                <div class="writing-lines"></div>
+            </div>
+        </div>
+
+        <!-- Aspect 3: History -->
+        <div class="aspect-box">
+            <div class="aspect-header">🚀 Cold War (Space Race)</div>
+            
+            <div class="notes-section">
+                <span class="label">✅ Benefits (Progress)</span>
+                <p class="prompt-text">e.g., Sputnik, Moon Landing, rapid technology growth.</p>
+                <div class="writing-lines"></div>
+                <div class="writing-lines"></div>
+                <div class="writing-lines"></div>
+            </div>
+            
+            <div class="notes-section">
+                <span class="label">⚠️ Costs (Danger)</span>
+                <p class="prompt-text">e.g., Soyuz 1 disaster, nuclear fear, spying/deception.</p>
+                <div class="writing-lines"></div>
+                <div class="writing-lines"></div>
+                <div class="writing-lines"></div>
+            </div>
+        </div>
+
+        <!-- Aspect 4: Psychology -->
+        <div class="aspect-box">
+            <div class="aspect-header">🧠 The Individual (Pressure)</div>
+            
+            <div class="notes-section">
+                <span class="label">✅ Benefits (Ambition)</span>
+                <p class="prompt-text">e.g., Setting "Personal Bests", rising to the challenge.</p>
+                <div class="writing-lines"></div>
+                <div class="writing-lines"></div>
+                <div class="writing-lines"></div>
+            </div>
+            
+            <div class="notes-section">
+                <span class="label">⚠️ Costs (Anxiety)</span>
+                <p class="prompt-text">e.g., Burnout, "underperforming" due to nerves, unhappiness.</p>
+                <div class="writing-lines"></div>
+                <div class="writing-lines"></div>
+                <div class="writing-lines"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Expanded Vocabulary Section -->
+    <div class="vocab-section">
+        <h3 style="margin-top: 0; border-bottom: 1px solid #ccc; padding-bottom: 5px;">📚 Unit 4 Vocabulary Bank</h3>
+        <p style="font-size: 12px; font-style: italic; margin-bottom: 10px;">Select at least 4 words to use in your essay.</p>
+        
+        <div class="vocab-grid">
+            
+            <!-- Column 1: Competition & Nature -->
+            <div>
+                <div class="vocab-category">Competition & Conflict</div>
+                Rivalry<br>
+                Opponent<br>
+                Victory<br>
+                Defeat<br>
+                Draw<br>
+                Contest<br>
+                Battleground<br>
+                Challenge<br>
+                Outperform
+            </div>
+
+            <!-- Column 2: Nature & Prefixes -->
+            <div>
+                <div class="vocab-category">Nature & Prefixes</div>
+                Interspecies<br>
+                Intraspecies<br>
+                Coexist<br>
+                Cooperate<br>
+                Emigrate<br>
+                Invasive species<br>
+                Adapt<br>
+                Thrive<br>
+                Extinction
+            </div>
+
+            <!-- Column 3: Pressure & Analysis -->
+            <div>
+                <div class="vocab-category">Pressure & Analysis</div>
+                Anxiety<br>
+                Innovation<br>
+                Catalyst<br>
+                Transparent<br>
+                Secrecy<br>
+                Zero-sum game<br>
+                Persuade<br>
+                Claim<br>
+                Announce
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
