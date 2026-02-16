@@ -9,19 +9,19 @@
         body {
             font-family: 'Courier New', Courier, monospace; /* "Secret Agent" typewriter font */
             color: #000;
-            line-height: 1.3;
+            line-height: 1.2;
             max-width: 210mm; /* A4 width */
             margin: 0 auto;
-            padding: 20px;
+            padding: 10mm; /* Reduced padding */
         }
 
         /* Header Styling */
         h1 {
             text-align: center;
-            border-bottom: 4px solid black;
+            border-bottom: 3px solid black;
             margin: 0 0 10px 0;
             padding-bottom: 5px;
-            font-size: 26px;
+            font-size: 22px; /* Slightly smaller */
             text-transform: uppercase;
             letter-spacing: 2px;
         }
@@ -29,9 +29,9 @@
         .debate-motion-top {
             text-align: center;
             font-weight: bold;
-            font-size: 13px;
-            margin-bottom: 15px;
-            padding: 5px;
+            font-size: 12px;
+            margin-bottom: 10px;
+            padding: 4px;
             border: 1px dashed #666;
             background-color: #f9f9f9;
         }
@@ -39,32 +39,32 @@
         .header-info {
             display: flex;
             justify-content: space-between;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
             font-weight: bold;
-            font-size: 14px;
+            font-size: 13px;
             border-bottom: 1px solid black;
             padding-bottom: 5px;
         }
 
         /* Section Container */
         .section {
-            border: 3px solid black;
-            padding: 15px;
-            margin-bottom: 20px;
+            border: 2px solid black;
+            padding: 10px;
+            margin-bottom: 15px;
             background: white;
-            position: relative; /* For title positioning */
+            position: relative;
         }
 
         .section-title {
             background-color: black;
             color: white;
-            padding: 5px 12px;
+            padding: 3px 10px;
             font-weight: bold;
-            font-size: 16px;
+            font-size: 14px;
             display: inline-block;
             position: absolute;
-            top: -15px;
-            left: -3px;
+            top: -12px;
+            left: -2px;
             text-transform: uppercase;
         }
 
@@ -72,27 +72,27 @@
         .grid-box {
             display: grid;
             grid-template-columns: 1fr 1fr; /* Two equal columns */
-            gap: 20px;
-            margin-top: 10px;
+            gap: 15px;
+            margin-top: 5px;
         }
 
         /* Typography */
         h3 {
             margin-top: 0;
-            margin-bottom: 5px;
+            margin-bottom: 3px;
             text-decoration: underline;
-            font-size: 16px;
+            font-size: 14px;
             text-transform: uppercase;
         }
         
         p { 
-            margin: 5px 0; 
-            font-size: 12px; 
+            margin: 3px 0; 
+            font-size: 11px; 
             font-weight: bold; 
         }
         
         em {
-            font-size: 11px;
+            font-size: 10px;
             font-weight: normal;
         }
 
@@ -100,28 +100,28 @@
         .notes-area {
             border: 2px dotted #888; 
             background-color: transparent; 
-            margin-top: 5px;
-            margin-bottom: 15px;
+            margin-top: 3px;
+            margin-bottom: 10px;
             width: 100%;
             display: block;
         }
 
-        /* --- BOX HEIGHTS (Tuned for A4 + 20% increase) --- */
-        /* Page 1: Phase 1 needs to fit comfortably */
-        .box-phase1 { min-height: 280px; } 
+        /* --- BOX HEIGHTS (REDUCED FOR SAFETY) --- */
+        /* Page 1 */
+        .box-phase1 { min-height: 240px; } /* Reduced from 280px */
 
-        /* Page 2: Phase 2 + Phase 3 */
-        .box-stats  { min-height: 480px; } 
-        .box-usa    { min-height: 216px; } 
-        .box-killer { min-height: 110px; } 
+        /* Page 2 */
+        .box-stats  { min-height: 380px; } /* Reduced from 480px */
+        .box-usa    { min-height: 170px; } /* Reduced from 216px */
+        .box-killer { min-height: 100px; } 
 
         /* Debate Briefing Box (Phase 3) */
         .debate-briefing {
             background-color: #f4f4f4;
             border: 2px dashed black;
-            padding: 12px;
-            margin-top: 15px;
-            margin-bottom: 15px;
+            padding: 8px;
+            margin-top: 10px;
+            margin-bottom: 10px;
             text-align: center;
         }
 
@@ -129,7 +129,7 @@
         @media print {
             body { 
                 padding: 0; 
-                margin: 15mm; /* Standard safe margin */
+                margin: 10mm; /* Standard safe margin */
             }
             
             /* Force Page Break after Phase 1 */
@@ -162,7 +162,7 @@
 
     <div class="section">
         <div class="section-title">PHASE 1: DEEP READING ANALYSIS</div>
-        <p style="margin-top: 15px; text-align: center; font-style: italic;">Instructions: Read the articles. Identify one key benefit and one hidden cost for each side.</p>
+        <p style="margin-top: 10px; text-align: center; font-style: italic;">Instructions: Read the articles. Identify one key benefit and one hidden cost for each side.</p>
         
         <div class="grid-box">
             <!-- USSR Column -->
@@ -177,7 +177,7 @@
             </div>
 
             <!-- USA Column -->
-            <div style="border-left: 2px solid black; padding-left: 20px;">
+            <div style="border-left: 2px solid black; padding-left: 15px;">
                 <h3>Perspective B: Free Market (USA)</h3>
                 
                 <p>✅ Key Benefit found in text:</p>
@@ -207,7 +207,7 @@
             </div>
 
             <!-- USA MISSION -->
-            <div style="border-left: 2px solid black; padding-left: 20px;">
+            <div style="border-left: 2px solid black; padding-left: 15px;">
                 <h3>MISSION B: USA FACTS</h3>
                 
                 <p>1. Name <strong>ONE non-rocket invention</strong>:</p>
@@ -225,13 +225,13 @@
         <div class="section-title">PHASE 3: THE ARSENAL (DEBATE PREP)</div>
         
         <div class="debate-briefing">
-            <p style="font-size: 13px; text-transform: uppercase;"><em>Motion: "This house believes that countries make more progress when they compete with each other."</em></p>
-            <p style="font-size: 11.5px; margin-top: 8px; font-weight: normal;"><strong>TOP SECRET:</strong> You do not know which side of the debate you will be on! You must conduct <strong>further research online</strong> for BOTH sides to prepare your arguments.</p>
+            <p style="font-size: 12px; text-transform: uppercase;"><em>Motion: "This house believes that countries make more progress when they compete with each other."</em></p>
+            <p style="font-size: 11px; margin-top: 5px; font-weight: normal;"><strong>TOP SECRET:</strong> You do not know which side of the debate you will be on! You must conduct <strong>further research online</strong> for BOTH sides to prepare your arguments.</p>
         </div>
 
-        <p style="margin-top: 10px;">Review your notes and new online research. Choose the <strong>single strongest fact</strong> for each side to use in the debate.</p>
+        <p style="margin-top: 5px;">Review your notes and new online research. Choose the <strong>single strongest fact</strong> for each side to use in the debate.</p>
 
-        <div style="margin-bottom: 15px;">
+        <div style="margin-bottom: 10px;">
             <strong>💣 MY KILLER FACT FOR COMPETITION (USA/Free Market):</strong>
             <div class="notes-area box-killer" style="border: 2px solid black;"></div>
         </div>
